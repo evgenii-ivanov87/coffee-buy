@@ -1,26 +1,26 @@
 [
     {
-    "name": 1,
+    "name": "01",
     "col": 0
     },
     {
-    "name": 2,
+    "name": "02",
     "col": 1
      },
      {
-     "name": 3,
+     "name": "03",
     "col": 2
     },
     {
-    "name": 4,
+    "name": "04",
     "col": 3
     },
     {
-    "name": 5,
+    "name": "05",
     "col": 4
     },
     {
-    "name": 6,
+    "name": "06",
     "col": 5
     }
 ]

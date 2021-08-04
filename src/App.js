@@ -1,6 +1,8 @@
 
 import './App.css';
-import Form from './components/form'
+import Container from './components/Container/Container'
+import Header from './components/header/header'
+import Form from './components/form/form'
 import coffee from './db.json'
 import coffee2 from './db2.json'
 
@@ -8,8 +10,14 @@ function App() {
   return(
     <>
    <h1>Hello!</h1>
-  <Form props={coffee}/>
-  <Form props={coffee2}/>
+   <Header/>
+   <Container>
+      <Form props={coffee}/>
+     <Form props={coffee2}/>
+   </Container>
+  
+  
+  
   </>
     )
   
