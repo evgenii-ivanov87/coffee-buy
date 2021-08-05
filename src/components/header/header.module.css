@@ -1,16 +1,21 @@
-.nav{
+/* .nav{
+    width: 100%;
+}; */
 
-};
-
-.s.nav_list{
+.nav_spec{
     display: flex;
-    align-items: ;
+    justify-content: space-between;
     list-style: none;
-
-};
-.nav_item{
-
-};
-.nav_link{
+   
     
-}
+};
+ .nav_item{
+    display: inline;
+    border-top: 3px  #000;
+    border-right: 3px  #000;
+}; 
+.nav_link{
+    display: inline;
+    border-top: 3px  #000;
+    border-right: 3px  #000;
+} 

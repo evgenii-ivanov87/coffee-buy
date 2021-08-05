@@ -9,12 +9,12 @@ import coffee2 from './db2.json'
 function App() {
   return(
     <>
-   <h1>Hello!</h1>
+   {/* <h1>Hello!</h1> */}
    <Header/>
-   <Container>
+   {/* <Container>
       <Form props={coffee}/>
      <Form props={coffee2}/>
-   </Container>
+   </Container> */}
   
   
   
