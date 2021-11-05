@@ -2,21 +2,17 @@ import React from "react"
 import s from './form.module.css';
 
 
-const Form = ({props}) =>{
- 
-    
+
+const Form = ({name, col, value}) =>{
+  
  return(
-    <ul className={s.forms_list}>
-      {props.map(prop => (
-        <li className={s.forms_item} key={prop.name}>
-         
-         <label className={s.forms_input}>{prop.name}</label> 
-         <input />
-       
-        </li>
-      ))}
-    </ul>
-  );
+   <form className={s.forms_input}>
+      <label className={s.forms_label}>{name}</label> 
+      <p className={s.forms_col}>Попереднє значення:</p>
+         <p className={s.forms_col}>{col}</p>
+         <input className={s.forms_input}/>
+         <button className={s.forms_button} >Save</button>
+   </form>)
  
   
 

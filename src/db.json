@@ -1,26 +1,32 @@
 [
     {
     "name": "01",
-    "col": 0
+    "col": 0,
+    "value": 0
     },
     {
     "name": "02",
-    "col": 1
+    "col": 1,
+    "value": 0
      },
      {
      "name": "03",
-    "col": 2
+    "col": 2,
+    "value": 0
     },
     {
     "name": "04",
-    "col": 3
+    "col": 3,
+    "value": 0
     },
     {
     "name": "05",
-    "col": 4
+    "col": 4,
+    "value": 0
     },
     {
     "name": "06",
-    "col": 5
+    "col": 5,
+    "value": 0
     }
 ]

@@ -1,21 +1,21 @@
-.forms_list{
-    width: 100%;
+.forms_input{
+    /* width: 100%; */
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style: none;
+    align-items: center;
+    justify-content: left;
     
+    
+}
 
-};
+.forms_label{
+    margin-right: 10px;
+}
 
-.forms_item{
-    width: 100%;
-    display: flex;
+.forms_col{
+    margin-right: 10px;
 }
 
 .forms_input{
-    
-    margin-right: 25px;
+    margin-right: 10px;
+}
 
-
-};
