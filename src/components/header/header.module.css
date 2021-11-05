@@ -6,20 +6,23 @@
 
 .nav_spec{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
    
     
-};
+}
  .nav_item{
-     width: 50px;
+    width: 150px;
     display: block;
-    margin-right: 20px;
+    margin-right: 40px;
     border-top: 3px  #000;
     border-right: 3px  #000;
-}; 
-/* .nav_link{
-    display:b;
-    border-top: 3px  #000;
-    border-right: 3px  #000;
-}  */
+}
+.nav_link{
+    display:block;
+    text-decoration: none;
+    outline: none;
+    margin-right: 40px;
+     border-top: 3px  #000;
+    border-right: 3px  #000; 
+} 

@@ -1,0 +1,16 @@
+.nav_spec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav_item{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav_button{
+    width: 155px;
+    height: 40px;
+}
