@@ -4,32 +4,33 @@ import s from './Price.module.css'
 const Price = ()=>{
     return(
         
-        <div className={}>
+        <div className={s.priceWrapper}>
 
-           <div className={}>
-               <form className={}>
-                <label className={} >Безнал</label>
-                <input type="number" />
-                </form >
-            <form className={}>
-                <label className={}>Вода</label>
-                <input type="number" />
-            </form>
-            <form className={}>
-                <label className={}>Персонал</label>
-                <input type="number" />
-            </form>
-            <form className={}>
-                <label className={}>Чай</label>
-                <input type="number" />
+           <div className={s.price}>
+                <form className={s.priceForm}>
+                    
+                <label className={s.priceFormLabel} >Безнал</label>
+                <input className={s.priceFormInput} type="number" />
+                </form>
+                <form className={s.priceForm}>
+                <label className={s.priceFormLabel}>Вода</label>
+                <input className={s.priceFormInput} type="number" />
+                </form>
+                <form className={s.priceForm}>
+                <label className={s.priceFormLabel}>Персонал</label>
+                    <input className={s.priceFormInput} type="number" />
+                </form>
+                <form className={s.priceForm}>
+                <label className={s.priceFormLabel}>Чай</label>
+                <input className={s.priceFormInput}  type="number" />
             </form>
             </div> 
-            <div className={}>
-                <p className={}>Сумма</p>
-                <p className={}>Наличка</p>
+            <div className={s.interface}>
+                <p className={s.div}>Сумма <span>100</span> ГРН </p>
+                <p className={s.div}>Наличка <span>100</span> ГРН</p>
             </div>
-            <div className={}>
-                <button className={}>Save</button>
+            <div className={s.formButton}>
+                <button className={s.div}>Save</button>
             </div>
         </div>
     )
